@@ -16,10 +16,10 @@ jobs:
         uses: jfrog/setup-jfrog-cli@v4
         env:
           # JFrog platform url (for example: https://acme.jfrog.io)
-          JF_URL: ${{ vars.JF_URL }}
+          JF_URL: https://psemea.jfrog.io
         with:
           # Name of the OIDC provider as specified on the OIDC integration page in the JFrog Platform
-          oidc-provider-name: setup-jfrog-cli
+          oidc-provider-name: mathieup-github
 
       - name: Run JFrog CLI
         run: |
