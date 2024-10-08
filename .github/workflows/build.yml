@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Tag and push Docker Image
         env:
-          IMAGE_NAME: psemea.jfrog.io/onboarding-docker-docker/jfrog-docker-example-image:${{ github.run_number }}
+          IMAGE_NAME: psemea.jfrog.io/onboarding-docker/jfrog-docker-example-image:${{ github.run_number }}
         run: |
           jf docker build -t $IMAGE_NAME .
           jf docker push $IMAGE_NAME
