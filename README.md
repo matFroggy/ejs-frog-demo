@@ -1,3 +1,5 @@
+With OIDC integration
+
 # VulnExpress demo
 
 [![Frogbot Scan Repository](https://github.com/muldos/ejs-frog-demo/actions/workflows/frogbot-scan-repository.yaml/badge.svg)](https://github.com/muldos/ejs-frog-demo/actions/workflows/frogbot-scan-repository.yaml)
